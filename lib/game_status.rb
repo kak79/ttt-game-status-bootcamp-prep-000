@@ -70,8 +70,9 @@ def winner(board)
         
       end
     end
-    return nil
+    
   end
+  
 end
 
 
