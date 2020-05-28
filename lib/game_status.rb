@@ -61,7 +61,7 @@ end
   
 def winner(board) 
   winning_array = won?(board)
-  winning_array.any? do |i|
+  
     if won?(board)
       if board.at(winning_array[0]) === "X"  
         return "X" 
