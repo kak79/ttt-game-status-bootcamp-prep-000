@@ -54,7 +54,7 @@ def winner(board)
   winning_array = won?(board)
   board[winning_array[0]]
   
-  binding.pry
+  #binding.pry
   
   # winning_array.any? do |i|
   #   if won?(board)
