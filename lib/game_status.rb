@@ -61,17 +61,13 @@ end
   
 def winner(board) 
   winning_array = won?(board)
-  
     if won?(board)
       if board.at(winning_array[0]) === "X"  
         return "X" 
       elsif board.at(winning_array[0]) === "O"
         return "O"
-        
       end
     end
-    
-  
   return nil
 end
 
