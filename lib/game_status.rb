@@ -59,7 +59,8 @@ end
   #binding.pry
   
   
-def winner(board)  
+def winner(board) 
+  
   winning_array.any? do |i|
     if won?(board)
       if board.at(winning_array[0]) === "X"  
