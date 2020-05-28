@@ -52,9 +52,9 @@ end
 
 def winner(board)
   winning_array = won?(board)
-    if board[winning_array[0]]
+  board[winning_array[0]]
     
-    else
+    
       return nil
   end
 end
