@@ -52,7 +52,7 @@ end
 
 def winner(board)
   winning_array = won?(board)
-  
+  board[winning_array[0]]
   
   binding.pry
   
